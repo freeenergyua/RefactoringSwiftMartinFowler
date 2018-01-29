@@ -9,6 +9,8 @@
 import Foundation
 
 //You have a class with many equal instances that you want to replace with a single object.
+//Есть много одинаковых экземпляров одного класса, которые можно заменить одним объектом.
+//Превратите одинаковые объекты в один объект-ссылку.
 
 class ChangeValueToReference {
     static var basePrice:Double = 4.0

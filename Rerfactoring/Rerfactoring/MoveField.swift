@@ -6,8 +6,9 @@
 //  Copyright © 2017 User. All rights reserved.
 //
 
-import Foundation
 import UIKit
+
+//Поле используется в другом классе больше, чем в собственном.
 //Создайте поле в новом классе и перенаправьте к нему всех пользователей старого поля.
 
 class CallViewController: UIViewController {

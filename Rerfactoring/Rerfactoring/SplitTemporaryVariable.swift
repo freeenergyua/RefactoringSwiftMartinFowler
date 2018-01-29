@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+//У вас есть локальная переменная, которая используется для хранения разных промежуточных значений внутри метода (за исключением переменных циклов).
+//Используйте разные переменные для разных значений. Каждая переменная должна отвечать только за одну определённую вещь.
 //You have a temporary variable assigned to more than once, but is not a loop variable nor a collecting temporary variable.
 
 class SplitTemporaryVariable {

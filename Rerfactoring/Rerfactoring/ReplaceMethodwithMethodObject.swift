@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+//У вас есть длинный метод, в котором локальные переменные так сильно переплетены, что это делает невозможным применение извлечения метода.
+//Преобразуйте метод в отдельный класс так, чтобы локальные переменные стали полями этого класса. После этого можно без труда разделить метод на части.
 //You have a long method that uses local variables in such a way that you cannot apply
 class ReplaceMethodwithMethodObject  {
     

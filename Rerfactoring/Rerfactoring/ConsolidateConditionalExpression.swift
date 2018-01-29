@@ -5,7 +5,8 @@
 //  Created by User on 05.12.17.
 //  Copyright © 2017 User. All rights reserved.
 //
-
+//У вас есть несколько условных операторов, ведущих к одинаковому результату или действию.
+//Объедините все условия в одном условном операторе.
 import Foundation
 
 class ConsolidateConditionalExpression {

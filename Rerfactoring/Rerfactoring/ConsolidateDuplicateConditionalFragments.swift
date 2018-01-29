@@ -7,6 +7,8 @@
 //
 
 import Foundation
+//Одинаковый фрагмент кода находится во всех ветках условного оператора
+//Вынесите его за рамки оператора.
 
 class ConsolidateDuplicateConditionalFragments {
 

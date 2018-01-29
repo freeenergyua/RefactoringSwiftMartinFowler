@@ -8,6 +8,8 @@
 
 import Foundation
 //You have a reference object that is small, immutable, and awkward to manage.
+///У вас есть объект-ссылка, который слишком маленький и неизменяемый, чтобы оправдать сложности по управлению его жизненным циклом.
+//Превратите его в объект-значение.
 
 class BobClass {
     var name = "Bob"

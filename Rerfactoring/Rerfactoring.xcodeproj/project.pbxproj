@@ -32,6 +32,12 @@
 		0F51EEAB201E43B4003FB561 /* ReplaceDelegationWithInheritance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F51EEAA201E43B4003FB561 /* ReplaceDelegationWithInheritance.swift */; };
 		2D5A7B491FF6565600E9CD2E /* AddParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A7B481FF6565600E9CD2E /* AddParameter.swift */; };
 		2D5A7B4B1FF65C6600E9CD2E /* RemoveParameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A7B4A1FF65C6600E9CD2E /* RemoveParameter.swift */; };
+		2DECECFA201F3348009F2E55 /* ExtractVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECECF9201F3348009F2E55 /* ExtractVariable.swift */; };
+		2DECECFC201F38A2009F2E55 /* ReplaceMagicNumberWithSymbolicConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECECFB201F38A2009F2E55 /* ReplaceMagicNumberWithSymbolicConstant.swift */; };
+		2DECECFE201F3A1C009F2E55 /* ReplaceTypeCodeWithClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECECFD201F3A1C009F2E55 /* ReplaceTypeCodeWithClass.swift */; };
+		2DECED00201F3B73009F2E55 /* ReplaceTypeCodeWithSubclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECECFF201F3B73009F2E55 /* ReplaceTypeCodeWithSubclasses.swift */; };
+		2DECED02201F3C69009F2E55 /* ReplaceTypeCodeWithState_Strategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECED01201F3C69009F2E55 /* ReplaceTypeCodeWithState_Strategy.swift */; };
+		2DECED04201F3DEB009F2E55 /* ReplaceSubclassWithFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DECED03201F3DEB009F2E55 /* ReplaceSubclassWithFields.swift */; };
 		CE326CDC1FD46D6200CA4A21 /* ReplaceArrayWithObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE326CDB1FD46D6200CA4A21 /* ReplaceArrayWithObject.swift */; };
 		CE326CDE1FD46D9500CA4A21 /* DuplicateObservedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE326CDD1FD46D9500CA4A21 /* DuplicateObservedData.swift */; };
 		CE326CE01FD4709600CA4A21 /* ChangeUnidirectionalAssociationtoBidirectional.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE326CDF1FD4709600CA4A21 /* ChangeUnidirectionalAssociationtoBidirectional.swift */; };
@@ -41,7 +47,6 @@
 		CE3B7C6C1FC96A5800988BBE /* InlineMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B7C6B1FC96A5800988BBE /* InlineMethod.swift */; };
 		CE3B7C6E1FC96C2200988BBE /* InlineTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B7C6D1FC96C2200988BBE /* InlineTemp.swift */; };
 		CE3B7C701FC96D5900988BBE /* IntroduceExplainingVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B7C6F1FC96D5900988BBE /* IntroduceExplainingVariable.swift */; };
-		CE3B7C721FC9C26F00988BBE /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B7C711FC9C26F00988BBE /* FirstVC.swift */; };
 		CE3B7C741FC9C80900988BBE /* SplitTemporaryVariable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B7C731FC9C80900988BBE /* SplitTemporaryVariable.swift */; };
 		CE3B7C761FC9C9C300988BBE /* RemoveAssignmentsToParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B7C751FC9C9C300988BBE /* RemoveAssignmentsToParameters.swift */; };
 		CE3B7C781FC9CCFF00988BBE /* ReplaceMethodwithMethodObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3B7C771FC9CCFF00988BBE /* ReplaceMethodwithMethodObject.swift */; };
@@ -101,6 +106,12 @@
 		0F51EEAA201E43B4003FB561 /* ReplaceDelegationWithInheritance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceDelegationWithInheritance.swift; sourceTree = "<group>"; };
 		2D5A7B481FF6565600E9CD2E /* AddParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddParameter.swift; sourceTree = "<group>"; };
 		2D5A7B4A1FF65C6600E9CD2E /* RemoveParameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveParameter.swift; sourceTree = "<group>"; };
+		2DECECF9201F3348009F2E55 /* ExtractVariable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractVariable.swift; sourceTree = "<group>"; };
+		2DECECFB201F38A2009F2E55 /* ReplaceMagicNumberWithSymbolicConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceMagicNumberWithSymbolicConstant.swift; sourceTree = "<group>"; };
+		2DECECFD201F3A1C009F2E55 /* ReplaceTypeCodeWithClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceTypeCodeWithClass.swift; sourceTree = "<group>"; };
+		2DECECFF201F3B73009F2E55 /* ReplaceTypeCodeWithSubclasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceTypeCodeWithSubclasses.swift; sourceTree = "<group>"; };
+		2DECED01201F3C69009F2E55 /* ReplaceTypeCodeWithState_Strategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceTypeCodeWithState_Strategy.swift; sourceTree = "<group>"; };
+		2DECED03201F3DEB009F2E55 /* ReplaceSubclassWithFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReplaceSubclassWithFields.swift; sourceTree = "<group>"; };
 		CE326CDB1FD46D6200CA4A21 /* ReplaceArrayWithObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceArrayWithObject.swift; sourceTree = "<group>"; };
 		CE326CDD1FD46D9500CA4A21 /* DuplicateObservedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DuplicateObservedData.swift; sourceTree = "<group>"; };
 		CE326CDF1FD4709600CA4A21 /* ChangeUnidirectionalAssociationtoBidirectional.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeUnidirectionalAssociationtoBidirectional.swift; sourceTree = "<group>"; };
@@ -110,7 +121,6 @@
 		CE3B7C6B1FC96A5800988BBE /* InlineMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineMethod.swift; sourceTree = "<group>"; };
 		CE3B7C6D1FC96C2200988BBE /* InlineTemp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InlineTemp.swift; sourceTree = "<group>"; };
 		CE3B7C6F1FC96D5900988BBE /* IntroduceExplainingVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroduceExplainingVariable.swift; sourceTree = "<group>"; };
-		CE3B7C711FC9C26F00988BBE /* FirstVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
 		CE3B7C731FC9C80900988BBE /* SplitTemporaryVariable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitTemporaryVariable.swift; sourceTree = "<group>"; };
 		CE3B7C751FC9C9C300988BBE /* RemoveAssignmentsToParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveAssignmentsToParameters.swift; sourceTree = "<group>"; };
 		CE3B7C771FC9CCFF00988BBE /* ReplaceMethodwithMethodObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReplaceMethodwithMethodObject.swift; sourceTree = "<group>"; };
@@ -192,14 +202,14 @@
 		CE3B7C7B1FC9D84400988BBE /* 7_Перемещение_функций_между_обьектами */ = {
 			isa = PBXGroup;
 			children = (
-				CE3B7C861FC9D8F000988BBE /* RemoveMiddleMan.swift */,
 				CE3B7C881FC9D90800988BBE /* ForeignMethod.swift */,
-				CE3B7C841FC9D8E100988BBE /* HideDelegate.swift */,
 				CE3B7C821FC9D8D000988BBE /* InlineClass.swift */,
 				CE3B7C7E1FC9D89400988BBE /* MoveField.swift */,
 				CE3B7C801FC9D8C300988BBE /* ExtractClass.swift */,
 				CE3B7C8A1FC9D91C00988BBE /* LocalExtension.swift */,
 				CE3B7C7C1FC9D86D00988BBE /* MoveMethod.swift */,
+				CE3B7C841FC9D8E100988BBE /* HideDelegate.swift */,
+				CE3B7C861FC9D8F000988BBE /* RemoveMiddleMan.swift */,
 			);
 			name = "7_Перемещение_функций_между_обьектами";
 			sourceTree = "<group>";
@@ -217,6 +227,11 @@
 				CE326CE11FD4AB3B00CA4A21 /* EncapsulateField.swift */,
 				CE326CE31FD4AE2C00CA4A21 /* EncapsulateCollection.swift */,
 				CE326CE51FD4B3BF00CA4A21 /* ReplaceRecordWithDataClass.swift */,
+				2DECECFB201F38A2009F2E55 /* ReplaceMagicNumberWithSymbolicConstant.swift */,
+				2DECECFD201F3A1C009F2E55 /* ReplaceTypeCodeWithClass.swift */,
+				2DECECFF201F3B73009F2E55 /* ReplaceTypeCodeWithSubclasses.swift */,
+				2DECED01201F3C69009F2E55 /* ReplaceTypeCodeWithState_Strategy.swift */,
+				2DECED03201F3DEB009F2E55 /* ReplaceSubclassWithFields.swift */,
 			);
 			name = "8_Организация_данных";
 			sourceTree = "<group>";
@@ -232,6 +247,7 @@
 				CE3B7C791FC9D38900988BBE /* SubstituteAlgorithm.swift */,
 				CE3B7C6F1FC96D5900988BBE /* IntroduceExplainingVariable.swift */,
 				CE3B7C751FC9C9C300988BBE /* RemoveAssignmentsToParameters.swift */,
+				2DECECF9201F3348009F2E55 /* ExtractVariable.swift */,
 			);
 			name = "6_Составление методов";
 			sourceTree = "<group>";
@@ -291,7 +307,6 @@
 			isa = PBXGroup;
 			children = (
 				CE25E1CC1FB6830100B4226D /* Chapters */,
-				CEFE03401FADAF8B00ED3108 /* Controllers */,
 				CEFE033D1FADAF7300ED3108 /* Models */,
 				CEFE032B1FADAF4F00ED3108 /* AppDelegate.swift */,
 				CEFE032D1FADAF4F00ED3108 /* ViewController.swift */,
@@ -309,14 +324,6 @@
 				CE704C001FC02643006AECCF /* Helper6.swift */,
 			);
 			name = Models;
-			sourceTree = "<group>";
-		};
-		CEFE03401FADAF8B00ED3108 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				CE3B7C711FC9C26F00988BBE /* FirstVC.swift */,
-			);
-			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,8 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DECED00201F3B73009F2E55 /* ReplaceTypeCodeWithSubclasses.swift in Sources */,
 				CE3B7C741FC9C80900988BBE /* SplitTemporaryVariable.swift in Sources */,
 				CEEFAAC21FE9A67300B27C0D /* IntroduceAssertion.swift in Sources */,
+				2DECECFC201F38A2009F2E55 /* ReplaceMagicNumberWithSymbolicConstant.swift in Sources */,
 				CE3B7C831FC9D8D000988BBE /* InlineClass.swift in Sources */,
 				2D5A7B491FF6565600E9CD2E /* AddParameter.swift in Sources */,
 				0F51EE9B201E1F5D003FB561 /* PushDownMethod.swift in Sources */,
@@ -409,8 +418,8 @@
 				CE326CDC1FD46D6200CA4A21 /* ReplaceArrayWithObject.swift in Sources */,
 				CE326CE61FD4B3BF00CA4A21 /* ReplaceRecordWithDataClass.swift in Sources */,
 				CE3B7C701FC96D5900988BBE /* IntroduceExplainingVariable.swift in Sources */,
+				2DECED02201F3C69009F2E55 /* ReplaceTypeCodeWithState_Strategy.swift in Sources */,
 				0F51EE90201E0F94003FB561 /* ReplaceErrorCodeWithException.swift in Sources */,
-				CE3B7C721FC9C26F00988BBE /* FirstVC.swift in Sources */,
 				CEEFAAC51FE9AA2F00B27C0D /* RenameMethod.swift in Sources */,
 				CE3B7C7D1FC9D86D00988BBE /* MoveMethod.swift in Sources */,
 				CEB527681FD7480F005198EF /* DecomposeConditional.swift in Sources */,
@@ -437,8 +446,11 @@
 				CEFE032C1FADAF4F00ED3108 /* AppDelegate.swift in Sources */,
 				0F51EE88201E0243003FB561 /* IntroduceParameterObject.swift in Sources */,
 				CE3B7C941FC9D9BD00988BBE /* ChangeReferenceToValue.swift in Sources */,
+				2DECED04201F3DEB009F2E55 /* ReplaceSubclassWithFields.swift in Sources */,
+				2DECECFE201F3A1C009F2E55 /* ReplaceTypeCodeWithClass.swift in Sources */,
 				CE3B7C781FC9CCFF00988BBE /* ReplaceMethodwithMethodObject.swift in Sources */,
 				0F51EE7C201DF137003FB561 /*  SeparateQueryFromModifier.swift in Sources */,
+				2DECECFA201F3348009F2E55 /* ExtractVariable.swift in Sources */,
 				0F51EEA7201E3BDD003FB561 /* FormTemplateMethod.swift in Sources */,
 				0F51EE8E201E083B003FB561 /* ReplaceConstructorwithFactoryMethod.swift in Sources */,
 				CEB5276A1FD74CC8005198EF /* ConsolidateConditionalExpression.swift in Sources */,

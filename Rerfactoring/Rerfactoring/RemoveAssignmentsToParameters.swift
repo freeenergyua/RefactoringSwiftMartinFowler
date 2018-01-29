@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+//Параметру метода присваивается какое-то значение.
+//Вместо параметра воспользуйтесь новой локальной переменной.
 //The code assigns to a parameter.
 class RemoveAssignmentsToParameters{
     

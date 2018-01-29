@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+//У вас есть временная переменная, которой присваивается результат простого выражения (и больше ничего).
+//Замените обращения к переменной этим выражением.
 
 //You have a temp that is assigned to once with a simple expression, and the temp is getting in the way of other refactorings.
 
@@ -22,8 +23,6 @@ class InlineTemp {
     
     func after() -> Bool {
         let client = Person(name: "bob", money: 13.6, haveCar: false)
-        var basePrice = client.money + 1
-        basePrice += 1
         //...we can change temp by mistake
         return ((client.money + 1) > 1000)
     }

@@ -8,5 +8,10 @@
 
 import Foundation
 //Переместите все фичи из описанного класса в другой.
+///Класс почти ничего не делает, ни за что не отвечает, и никакой ответственности для этого класса не планируется.
+//Переместите все фичи из описанного класса в другой.
 
-//go to ExtractClass
+//go to ExtractClass revert functionality
+class InlineClass {
+    let entity = PersonExtractClass()
+}

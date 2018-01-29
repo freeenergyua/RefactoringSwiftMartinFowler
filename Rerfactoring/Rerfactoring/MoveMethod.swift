@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+//Метод используется в другом классе больше, чем в собственном.
+//Создайте новый метод в классе, который использует его больше других, и перенесите туда код из старого метода. Код оригинального метода превратите в обращение к новому методу в другом классе либо уберите его вообще.
 //Create a new method with a similar body in the class it uses most. Either turn the old method into a simple delegation, or remove it altogether.
 
 class MoveMethod {

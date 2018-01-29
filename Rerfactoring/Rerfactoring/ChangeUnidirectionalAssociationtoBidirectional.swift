@@ -8,6 +8,9 @@
 
 import Foundation
 //You have two classes that need to use each other's features, but there is only a one-way link
+//У вас есть двухсторонняя связь между классами, но один из классов больше не использует фичи другого.
+//Уберите неиспользуемую связь.
+
 class ChangeUnidirectionalAssociationtoBidirectional {}
 
 private class PersonNew {

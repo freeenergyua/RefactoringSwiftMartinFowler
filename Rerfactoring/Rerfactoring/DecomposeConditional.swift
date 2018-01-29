@@ -7,7 +7,8 @@
 //
 
 import Foundation
-
+//У вас есть сложный условный оператор (if-then/else или switch).
+//Выделите в отдельные методы все сложные части оператора: условие, then и else.
 
 class DecomposeConditional {
     

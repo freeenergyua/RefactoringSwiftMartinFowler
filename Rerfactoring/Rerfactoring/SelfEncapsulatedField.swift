@@ -10,6 +10,9 @@ import Foundation
 //You are accessing a field directly, but the coupling to the field is becoming awkward.
 
 //Create getting and setting methods for the field and use only those to access the field.
+//Вы используете прямой доступ к приватным полями внутри класса.
+//Создайте геттер и сеттер для поля, и пользуйтесь для доступа к полю только ими.
+
 class IntRange {
     private var low: Int
     private var high: Int

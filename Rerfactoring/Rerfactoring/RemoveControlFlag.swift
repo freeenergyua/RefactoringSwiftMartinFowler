@@ -15,7 +15,6 @@ class RemoveControlFlag {
 //    var isPlayerActive: Bool {
 //        set {
 //            isPlayerActive = newValue
-//            return
 //        }
 //        get {
 //            return isPlayerActive
