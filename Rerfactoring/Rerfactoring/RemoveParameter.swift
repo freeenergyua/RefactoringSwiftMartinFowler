@@ -5,17 +5,20 @@
 //  Created by Andre Gulyi on 29.12.17.
 //  Copyright © 2017 User. All rights reserved.
 //
-
+//no more than 3-4!!
 import Foundation
 
 class RemoveParameter {
     func before(param1: Int, param2: Int, param3: Int?, sumOfParams: Int, forFutureCalcucation: Int?) {}
     
-    func after(params: [Int]) {}
+    //if need send  these params
+    var taxParams:(sum:Int, taxRate:Int, taxType: Int)?
+    var creditParams:(creditType: Int, creditPeriod: Int)?
+    
+    func after(taxParams: (Int,Int,Int)?, creditParams: (Int, Int)?) {}
     
     func test() {
         let entity = RemoveParameter()
-        let params = [10,20]
-        entity.after(params: params)
+        entity.after(taxParams: taxParams, creditParams: creditParams)
     }
 }

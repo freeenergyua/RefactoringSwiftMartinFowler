@@ -8,12 +8,7 @@
 
 import Foundation
 //You have two classes that need to use each other's features, but there is only a one-way link
-class ChangeUnidirectionalAssociationtoBidirectional {
- 
-    //
-    
-    
-}
+class ChangeUnidirectionalAssociationtoBidirectional {}
 
 private class PersonNew {
     
