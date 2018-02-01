@@ -12,11 +12,18 @@ import Foundation
 //Создайте новый класс, который бы содержал эти методы, и сделайте его наследником служебного класса, либо его обёрткой.
 
 class LocalExtension {
+    func getNextDateFor(date: NSDate) {
+        let nextDate = date.addingTimeInterval(24*60*60)
+    }
     
+    func after() {
+        let now = NSDate()
+        let next = NSDate.nextDateFor(date: now)
+    }
 }
 
 extension NSDate {
-    func nextDateFor(date: NSDate) -> NSDate {
+    static func nextDateFor(date: NSDate) -> NSDate {
         return date.addingTimeInterval(24*60*60)
     }
 }
